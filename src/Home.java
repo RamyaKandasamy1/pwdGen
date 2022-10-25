@@ -199,9 +199,10 @@ public class Home extends JFrame {
 				    		int randomIndex = random.nextInt(combinedChars.length());
 				    		sb.append(combinedChars.charAt(randomIndex));
 				    		textField2.setText(sb.toString());			            		            
-				    		System.out.println(sb.toString());
-            
+				    		
 				    	}
+				    	System.out.println(sb.toString());
+			            
 				    	break;
 				    	
 				    case 1: // lowercase selected
@@ -213,9 +214,10 @@ public class Home extends JFrame {
 					            int randomIndex = random.nextInt(lowerCaseLetters.length());
 					            sb.append(lowerCaseLetters.charAt(randomIndex));
 					            textField2.setText(sb.toString());			            		            
-					            System.out.println(sb.toString());
 					            
 					        }
+				    	  System.out.println(sb.toString());
+				            
 				    	  
 				    	  break;
 				    
@@ -226,9 +228,10 @@ public class Home extends JFrame {
 					            int randomIndex = random.nextInt(capitalCaseLetters.length());
 					            sb.append(capitalCaseLetters.charAt(randomIndex));
 					            textField2.setText(sb.toString());			            		            
-					            System.out.println(sb.toString());
 					            
 					        }
+				    	  System.out.println(sb.toString());
+				            
 				    	  break;
 				    
 				    case 3: // upper+lower
@@ -237,9 +240,10 @@ public class Home extends JFrame {
 					            int randomIndex = random.nextInt(combinedChars1.length());
 					            sb.append(combinedChars1.charAt(randomIndex));
 					            textField2.setText(sb.toString());			            		            
-					            System.out.println(sb.toString());
 					            
 					        }
+				    	  System.out.println(sb.toString());
+				            
 				    	  break;
 				    case 4: //  symbols
 				    	  for (int i = 0; i < length; i++)
@@ -258,9 +262,10 @@ public class Home extends JFrame {
 					            int randomIndex = random.nextInt(combinedChars4.length());
 					            sb.append(combinedChars4.charAt(randomIndex));
 					            textField2.setText(sb.toString());			            		            
-					            System.out.println(sb.toString());
-					            
+					           
 					        }
+				    	  System.out.println(sb.toString());
+				            
 				    	  break;
 				    	
 				    case 6: // uppercase+symbols
@@ -269,9 +274,10 @@ public class Home extends JFrame {
 					            int randomIndex = random.nextInt(combinedChars7.length());
 					            sb.append(combinedChars7.charAt(randomIndex));
 					            textField2.setText(sb.toString());			            		            
-					            System.out.println(sb.toString());
-					            
+					           
 					        }
+				    	  System.out.println(sb.toString());
+				            
 				    	  break;
 				    case 7: // lowercase+uppercase+symbols
 				    	  for (int i = 0; i < length; i++)
@@ -279,9 +285,10 @@ public class Home extends JFrame {
 					            int randomIndex = random.nextInt(combinedChars2.length());
 					            sb.append(combinedChars2.charAt(randomIndex));
 					            textField2.setText(sb.toString());			            		            
-					            System.out.println(sb.toString());
-					            
+					           
 					        }
+				    	  System.out.println(sb.toString());
+				            
 				    	  break;
 				    	
 				    
@@ -302,9 +309,10 @@ public class Home extends JFrame {
 				            int randomIndex = random.nextInt(combinedChars6.length());
 				            sb.append(combinedChars6.charAt(randomIndex));
 				            textField2.setText(sb.toString());			            		            
-				            System.out.println(sb.toString());
 				            
 				        }
+				    	System.out.println(sb.toString());
+			            
 			    	  break;
 				    	
 				    case 10: //  uppercase + numbers
@@ -313,9 +321,10 @@ public class Home extends JFrame {
 				            int randomIndex = random.nextInt(combinedChars8.length());
 				            sb.append(combinedChars8.charAt(randomIndex));
 				            textField2.setText(sb.toString());			            		            
-				            System.out.println(sb.toString());
 				            
 				        }
+				    	System.out.println(sb.toString());
+			            
 			    	  break;
 				    	
 				    case 11: // lowercase+uppercase+numbers
@@ -324,9 +333,10 @@ public class Home extends JFrame {
 				            int randomIndex = random.nextInt(combinedChars3.length());
 				            sb.append(combinedChars3.charAt(randomIndex));
 				            textField2.setText(sb.toString());			            		            
-				            System.out.println(sb.toString());
 				            
 				        }
+				    	System.out.println(sb.toString());
+			            
 			    	  break;
 				    	
 				    case 12: // numbers+symbols
@@ -335,9 +345,10 @@ public class Home extends JFrame {
 				            int randomIndex = random.nextInt(combinedChars9.length());
 				            sb.append(combinedChars9.charAt(randomIndex));
 				            textField2.setText(sb.toString());			            		            
-				            System.out.println(sb.toString());
 				            
 				        }
+				    	System.out.println(sb.toString());
+			            
 			    	  break;
 				    	
 				    	
@@ -348,9 +359,10 @@ public class Home extends JFrame {
 				            int randomIndex = random.nextInt(combinedChars5.length());
 				            sb.append(combinedChars5.charAt(randomIndex));
 				            textField2.setText(sb.toString());			            		            
-				            System.out.println(sb.toString());
 				            
 				        }
+				      	System.out.println(sb.toString());
+			            
 			    	  break;
 				    case 14: //lowercase+uppercase+symbols+numbers
 				    	
@@ -359,9 +371,10 @@ public class Home extends JFrame {
 				            int randomIndex = random.nextInt(combinedChars2.length());
 				            sb.append(combinedChars2.charAt(randomIndex));
 				            textField2.setText(sb.toString());			            		            
-				            System.out.println(sb.toString());
-				            
+				           
 				        }
+				      	 System.out.println(sb.toString());
+				            
 			    	  break;
 				    case 15: //lowercase+uppercase+symbols+numbers
     	
@@ -370,9 +383,9 @@ public class Home extends JFrame {
 				    		int randomIndex = random.nextInt(combinedChars.length());
 				    		sb.append(combinedChars.charAt(randomIndex));
 				    		textField2.setText(sb.toString());			            		            
-				    		System.out.println(sb.toString());
-            
-				    	}
+				    		
+            	    	}
+				    	System.out.println(sb.toString());
 				    	break;
 				    
 				}
